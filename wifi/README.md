@@ -6,7 +6,7 @@ Deactivate Wi-fi on screen sleep to save device battery life.
 brew install hammerspoon
 
 mkdir ~/.hammerspoon
-curl https://raw.githubusercontent.com/drejleeo/costomize/refs/heads/main/init.lua > ~/.hammerspoon/init.lua
+curl https://raw.githubusercontent.com/drejleeo/costomize/refs/heads/main/wifi/init.lua > ~/.hammerspoon/init.lua
 ```
 
 ### Post actions:
