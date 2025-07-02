@@ -9,4 +9,4 @@ configure_hammerspoon () {
 }
 
 # Run configurations
-install_hammerspoon
+configure_hammerspoon
