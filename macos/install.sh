@@ -1,12 +1,12 @@
 # Programs
 brew install --cask vscodium
+brew install hammerspoon
 
 # Multi-line installations
-install_hammerspoon () {
-  brew install hammerspoon
+configure_hammerspoon () {
   mkdir ~/.hammerspoon
-  curl https://raw.githubusercontent.com/drejleeo/costomize/refs/heads/main/wifi/init.lua > ~/.hammerspoon/init.lua
+  curl https://raw.githubusercontent.com/drejleeo/costomize/refs/heads/main/macos/scripts/init.lua > ~/.hammerspoon/init.lua
 }
 
-# Tools
+# Run configurations
 install_hammerspoon
