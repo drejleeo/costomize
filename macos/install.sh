@@ -13,3 +13,4 @@ configure_podman () {
 brew install --cask vscodium
 brew install hammerspoon && configure_hammerspoon
 brew install podman && configure_podman
+brew install --cask podman-desktop
